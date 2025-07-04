@@ -1,0 +1,52 @@
+/* src/components/Hobby.css */
+.hobby-section {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fd83ce;
+}
+
+.hobby-title {
+  font-size: 2rem;
+  color: #ff6600;
+  margin-bottom: 30px;
+}
+
+.hobby-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.hobby-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-5px);
+}
+
+.hobby-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* Membuat gambar 1:1 */
+  object-fit: cover;    /* Agar gambar tidak gepeng atau melar */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+.hobby-card h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hobby-card p {
+  font-size: 0.95rem;
+  color: #666;
+}

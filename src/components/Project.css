@@ -1,0 +1,64 @@
+.project-section {
+  padding: 4rem 2rem;
+  background-color: #fa92d2;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.25rem; /* Rapat tapi masih ada ruang kecil */
+  justify-content: center;
+}
+
+.project-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+
+.project-content {
+  padding: 1rem;
+}
+
+.project-content h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.project-content p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.project-content a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-content a:hover {
+  text-decoration: underline;
+}

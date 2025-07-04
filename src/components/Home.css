@@ -1,0 +1,129 @@
+/* Navbar */
+.navbar {
+  width: 97%;
+  padding: 1rem 2rem;
+  background-color: #fb55bb;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.logo .dot {
+  color: #e63946;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #e63946;
+}
+
+/* Home Section */
+.home {
+  display: flex;
+  height: 100vh;
+  background-color: #fd64c2;
+  color: white;
+  padding: 50px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 80px; /* to avoid being covered by navbar */
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.right {
+  flex: 1;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.right h1 span {
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.right p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  color: #f1f1f1;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary {
+  background-color: white;
+  color: #111;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #e3e3e3;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: #111;
+}
